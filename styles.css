@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=REM&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'REM', sans-serif;
+}
+
+.main-container {
+  display: flex;
+}
+
+.side-bar {
+  position: relative;
+  background-image: url("./assets/sidebar-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.logo {
+  position: absolute;
+  top: 20vh;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.logo h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 2.5rem;
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+.bg-photo-credit {
+    position: absolute;
+    bottom: 10px;
+    display: inline;
+    right: 50%;
+    transform: translateX(50%);
+    color: rgb(8, 8, 8);
+    white-space: nowrap;
+}
+
+.bg-photo-credit a {
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+
+.form-container {
+  background-color: whitesmoke;
+  padding: 50px;
+}
+
+.form-container > p {
+  margin: 50px;
+  margin-left: 0;
+  line-height: 30px;
+  font-weight: bold;
+}
